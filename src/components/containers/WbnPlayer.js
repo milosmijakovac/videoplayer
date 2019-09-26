@@ -98,7 +98,7 @@ const WbnPlayer = ({ match, history, location }) => {
    }
 
   return (
-    <ThemeProvider theme={state.nightmode ? theme : themeLight}>
+    <ThemeProvider theme={state.nightMode ? theme : themeLight}>
       {state.videos !== null ? (
         <StyledWbnPlayer>
           <Video
